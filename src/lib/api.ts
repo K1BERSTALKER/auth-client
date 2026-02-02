@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://auth-server-fea3.onrender.com/api",
   withCredentials: true, // required for refresh-token cookies
 });
 
